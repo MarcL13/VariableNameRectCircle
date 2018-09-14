@@ -1,0 +1,32 @@
+
+/**
+ * 
+ * @author Marc Lussier, Period 7
+ *Variable Practice-NameRectangleCircle
+ *
+ */
+public class NameRectangleCircle 
+{
+
+	public static void main(String[] args) {
+		System.out.print("Name: ");
+		String name = new String("Marc Lussier");
+		System.out.println(name);
+		System.out.print("Area of Rectangle: ");
+		System.out.print("Length=5, width=2. Area= ");
+		int length = 5;
+		int width = 2;
+		System.out.println(length*width);
+		System.out.print("Circumference of a circle: ");		
+		System.out.print("radius=4.  Circumference = ");
+		int radius = 4;
+		double pi = 3.14;
+		System.out.println(pi*radius*2);
+		System.out.print("Area of a Circle: ");
+		System.out.print("radius=4.  Area= ");
+		System.out.print(pi*radius*radius);
+		
+
+	}
+
+}
